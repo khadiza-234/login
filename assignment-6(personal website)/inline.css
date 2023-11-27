@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-main{
+    margin: 0;
+    padding: 20px 10px;
+    background-color:rgb(230,242,247)
+}
+.header-section{
+    display: flex;
+    color: rgb(49,50,47);
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(23,23,23);
+    font-weight: bold;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.nav-bar ul li:hover{
+    margin: 0;
+    padding: 10px 20px;
+
+}
+.logo{
+    font-size: 35px;
+    font-family: cursive;
+    color: black;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 7px;
+}
+/*home section*/
+.part-1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px;
+    background-color: rgb(252,250,247);
+}
+
+
+.my-details{
+    width: 50%;
+    padding: 10px 30px;
+}
+.my-details h1{
+    font-size: 40px;
+}
+.my-details p{
+    color:rgb(65,70,70);
+}
+.my-details button{
+    margin: 15px 0;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(157,157,232);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(red(209, 105, 126),bisque);
+    text-decoration-color: black;
+    border-radius: 5px;
+}
+/*services part*/
+.services{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 50px 150px;
+    grid-gap: 30px;
+    
+}
+.services-items{
+    padding: 20px 60px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+.icon:hover{
+    color:blue
+}
+
+.icon{
+    color: blue;
+    font-size: 40px;
+}
+
+@media only screen (max-width:600){
+    /*body{
+        background-color:chartreuse
+
+}
+*/
+
+.header-section{
+   display: inline-block;
+   justify-content:center;
+   align-items:center;
+}
+
+.nav-bar ul{
+    display: inline-block;
+
+}
+.header-main{
+    margin: 0%;
+    padding: 20px;
+    background-color: rgb(247,235,188);
+
+
+}
+.home-section{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+
+}
+
+.my-details{
+    width: 100px; 
+    padding: 10px;
+
+}
+.my-details h1{
+    font-size: 28px;
+    font-family: 'poppins',sans-serif;
+}
+.image-part{
+    width: 10%;
+    height: 20px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:10px;
+    margin: 10px 30px;
+}
+
+ 
